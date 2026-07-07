@@ -62,7 +62,12 @@ Analyzes spending patterns, categorizes transactions, and answers finance questi
 
 This portfolio is deployed using **GitHub Pages** from the `main` branch.
 
-Repository name:
+**Repository:** [TasniaNitu.github.io](https://github.com/TasniaNitu/TasniaNitu.github.io)
 
-```text
-TasniaNitu.github.io
+**Live URL:** [tasnianitu.github.io](https://tasnianitu.github.io)
+
+## Contact
+
+- **Email:** [kazitasnia20@gmail.com](mailto:kazitasnia20@gmail.com)
+- **LinkedIn:** [linkedin.com/in/tasnia-ai](https://www.linkedin.com/in/tasnia-ai)
+- **GitHub:** [github.com/TasniaNitu](https://github.com/TasniaNitu)
