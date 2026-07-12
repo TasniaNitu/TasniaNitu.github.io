@@ -1,73 +1,138 @@
-# Kazi Tasnia Nitu Portfolio Website
+# Kazi Tasnia Nitu — AI/ML Portfolio
 
-A clean one-page portfolio website for showcasing my AI/ML projects, technical skills, and contact information.
+[![Portfolio](https://img.shields.io/badge/Live_Portfolio-Visit_Website-0A66C2?style=for-the-badge)](https://tasnianitu.github.io)
+![HTML5](https://img.shields.io/badge/HTML5-Website-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Responsive_Design-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deployed-222222?style=for-the-badge&logo=githubpages&logoColor=white)
 
-🌐 **Live Portfolio:** [tasnianitu.github.io](https://tasnianitu.github.io)
+A responsive one-page portfolio presenting my selected machine learning, natural-language processing, large-language-model, and Retrieval-Augmented Generation projects.
+
+<p align="center">
+  <a href="https://tasnianitu.github.io">
+    <img
+      src="portfolio-preview.png"
+      alt="Kazi Tasnia Nitu AI and machine learning portfolio preview"
+      width="900"
+    >
+  </a>
+</p>
+
+## Live Portfolio
+
+**Website:** [tasnianitu.github.io](https://tasnianitu.github.io)
 
 ## About
 
-I am a CSE graduate majoring in Artificial Intelligence, focused on building practical AI products using Python, machine learning, NLP, LLMs, and RAG systems.
+I am a Computer Science and Engineering graduate specializing in Artificial Intelligence, focused on building practical machine learning and generative AI applications.
 
-This portfolio highlights my selected AI/ML projects, including resume screening, document question answering, fake news detection, and AI-powered finance assistance.
+My work includes semantic resume matching, BERT-based text classification, Retrieval-Augmented Generation over PDF documents, and AI-powered financial analytics.
+
+I am currently seeking entry-level opportunities as a **Machine Learning Engineer**, **AI Engineer**, or **Applied AI Engineer**.
 
 ## Featured Projects
 
 ### AI Resume Screener
-Ranks resumes against a job description using sentence-transformers and cosine similarity.
 
-- **Live Demo:** [AI Resume Screener](https://tasnianitu-resume-screener.streamlit.app/#ai-resume-screener)
-- **GitHub:** [resume-screener](https://github.com/TasniaNitu/resume-screener)
+Ranks multiple PDF resumes against a job description using sentence-transformer embeddings and cosine similarity.
 
-### Fake News Classifier
-Detects real vs fake news using a fine-tuned BERT model served through a FastAPI endpoint.
-
-- **GitHub:** [fake-news-classifier](https://github.com/TasniaNitu/fake-news-classifier)
+- [Live Demo](https://tasnianitu-resume-screener.streamlit.app/#ai-resume-screener)
+- [GitHub Repository](https://github.com/TasniaNitu/resume-screener)
 
 ### AI PDF Chatbot Pro
-Answers questions from uploaded PDFs using LangChain, FAISS retrieval, and a local LLM.
 
-- **GitHub:** [ai-pdf-chatbot-pro](https://github.com/TasniaNitu/ai-pdf-chatbot-pro)
+A local Retrieval-Augmented Generation application that answers questions about uploaded PDF documents using LangChain, FAISS, Hugging Face embeddings, and Ollama.
 
-### Personal Finance AI Assistant
-Analyzes spending patterns, categorizes transactions, and answers finance questions from CSV data.
+- [GitHub Repository](https://github.com/TasniaNitu/ai-pdf-chatbot-pro)
 
-- **GitHub:** [finance-ai-assistant](https://github.com/TasniaNitu/finance-ai-assistant)
+### Fake News Classifier
 
-## Tech Stack
+Classifies news articles as real or fake using a fine-tuned BERT model, with inference provided through a FastAPI REST API.
 
-- HTML
-- CSS
-- Python
-- Machine Learning
-- NLP
-- LLMs
-- RAG
-- LangChain
-- Hugging Face
-- FastAPI
-- Streamlit
-- FAISS
-- PyTorch
+- [GitHub Repository](https://github.com/TasniaNitu/fake-news-classifier)
+- [Hugging Face Model](https://huggingface.co/TasniaNitu/fake-news-bert)
+
+### Finance AI Assistant
+
+Processes bank-statement CSV files, categorizes transactions, generates interactive financial dashboards, and answers natural-language questions about spending.
+
+- [GitHub Repository](https://github.com/TasniaNitu/finance-ai-assistant)
+
+## Website Features
+
+- Responsive one-page layout
+- Clear professional headline
+- About and career-focus section
+- Four featured AI/ML projects
+- Live project and repository links
+- Technical-skills section
+- Direct contact links
+- Search-engine metadata
+- Open Graph and Twitter/X social-preview metadata
+- Accessible semantic HTML structure
+
+## Website Technology
+
+- HTML5
+- CSS3
+- Responsive CSS Grid and Flexbox
 - GitHub Pages
 
-## Website Sections
+## AI/ML Technologies Showcased
 
-- Name and headline
-- About
-- Featured projects
-- Skills
-- Contact links
+- Python
+- Machine Learning
+- Natural Language Processing
+- PyTorch
+- Hugging Face Transformers
+- BERT
+- Large Language Models
+- Retrieval-Augmented Generation
+- LangChain
+- FAISS
+- FastAPI
+- Streamlit
+- Ollama
+
+## Repository Structure
+
+```text
+TasniaNitu.github.io/
+├── README.md
+├── index.html
+├── styles.css
+└── portfolio-preview.png
+```
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/TasniaNitu/TasniaNitu.github.io.git
+cd TasniaNitu.github.io
+```
+
+Open `index.html` directly in a browser, or start a local server:
+
+```bash
+python -m http.server 8000
+```
+
+Then open:
+
+```text
+http://localhost:8000
+```
 
 ## Deployment
 
-This portfolio is deployed using **GitHub Pages** from the `main` branch.
+The portfolio is deployed through **GitHub Pages** from the `main` branch.
 
-**Repository:** [TasniaNitu.github.io](https://github.com/TasniaNitu/TasniaNitu.github.io)
-
-**Live URL:** [tasnianitu.github.io](https://tasnianitu.github.io)
+Any committed changes to `index.html`, `styles.css`, or the supporting assets are published through the configured GitHub Pages deployment.
 
 ## Contact
 
 - **Email:** [kazitasnia20@gmail.com](mailto:kazitasnia20@gmail.com)
 - **LinkedIn:** [linkedin.com/in/tasnia-ai](https://www.linkedin.com/in/tasnia-ai)
 - **GitHub:** [github.com/TasniaNitu](https://github.com/TasniaNitu)
+- **Portfolio:** [tasnianitu.github.io](https://tasnianitu.github.io)
